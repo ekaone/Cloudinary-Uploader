@@ -7,3 +7,11 @@
   flex-direction: column;
   font-size: 30px;
 }
+
+.footer {
+  position: fixed;
+  bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+}
