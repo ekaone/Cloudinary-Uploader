@@ -24,7 +24,7 @@ function Gallery() {
           imageIds.map((imageId, index) => (
             <Image
               key={index}
-              cloudName={"ddjsyskef"}
+              cloudName={process.env.NEXT_PUBLIC_CLOUDINARY_CLIENT_NAME}
               publicId={imageId}
               width="300"
               crop="scale"
