@@ -25,6 +25,11 @@ export default function Home() {
             <p>Gallery Images</p>
           </a>
 
+          <a href="/upload" className={styles.card}>
+            <h3>Upload &rarr;</h3>
+            <p>Upload Image</p>
+          </a>
+
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h3>Documentation &rarr;</h3>
             <p>Find in-depth information about Next.js features and API.</p>

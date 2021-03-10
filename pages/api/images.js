@@ -1,9 +1,6 @@
 const { cloudinary } = require("./utils/cloudinary");
 
 export default async (req, res) => {
-  // res.statusCode = 200;
-  // res.json({ api: process.env.CLOUDINARY_API_KEY });
-
   const { resources } = await cloudinary.search
     .expression("folder:food")
     .sort_by("public_id", "desc")
