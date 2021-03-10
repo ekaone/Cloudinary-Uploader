@@ -19,7 +19,7 @@ function Gallery() {
 
   return (
     <div>
-      <div className="gallery">
+      <div className={styles.gallery}>
         {imageIds &&
           imageIds.map((imageId, index) => (
             <Image
